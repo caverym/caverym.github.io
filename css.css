@@ -5,11 +5,15 @@ body {
           font-family: Arial;
         }
         
-        
+        /* img {
+          width:auto;
+          height:auto
+        } */
+
         header {
           font-family: Arial;
           background-color: #262626;
-          padding: 30px;
+          padding: 10px;
           text-align: center;
           font-size: 35px;
           color: white;
