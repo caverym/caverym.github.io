@@ -26,6 +26,9 @@ article {
   align-self: center;
   color: white;
 }
+article.twit {
+  align-self: right;
+}
 footer {
   align-self: left;
   color: white;
