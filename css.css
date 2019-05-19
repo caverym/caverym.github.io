@@ -14,14 +14,14 @@ body {
           font-family: Arial;
           background-color: #262626;
           padding: 10px;
-          text-align: center;
+          text-align: auto;
           font-size: 35px;
           color: white;
         }
         
         
         nav {
-          float: center;
+          float: auto;
           width: 30%;
           /* height: 300px; */
           padding: 20px; 
@@ -42,8 +42,8 @@ body {
         
         
         section:after {
-          align-self: center;
-          text-align: center;
+          align-self: auto;
+          text-align: auto;
           background-color: #262626;
           content: "";
           display: table;
@@ -52,10 +52,10 @@ body {
         
         
         footer {
-          align-self: center;
+          align-self: auto;
           background-color: #303030;
           padding: 10px;
-          text-align: center;
+          text-align: auto;
           color: white;
         }
 
