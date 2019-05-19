@@ -14,7 +14,9 @@ body {
           font-family: Arial;
           background-color: #262626;
           padding: 10px;
-          text-align: auto;
+          align-self: center;
+          align-content: center;
+          text-align: center;
           font-size: 35px;
           color: white;
         }
@@ -34,16 +36,26 @@ body {
         }
         
         article {
+          align-self: center;
+          align-content: center;
+          text-align: center;
           padding: 20px;
           /* width: 70%; */
           background-color: #292929;
           height: 300px; 
         }
         
-        
+        section {
+          align-self: center;
+          align-content: center;
+          text-align: center;
+          background-color: #262626;
+        }
+
         section:after {
-          align-self: auto;
-          text-align: auto;
+          align-self: center;
+          align-content: center;
+          text-align: center;
           background-color: #262626;
           content: "";
           display: table;
@@ -52,7 +64,9 @@ body {
         
         
         footer {
-          align-self: auto;
+          align-self: center;
+          align-content: center;
+          text-align: center;
           background-color: #ff0159;
           padding: 10px;
           text-align: auto;
@@ -60,6 +74,9 @@ body {
         }
 
         form {
+          align-self: center;
+          align-content: center;
+          text-align: center;
           font-family: Arial
         }
 
