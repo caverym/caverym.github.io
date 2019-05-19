@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        
+        
+        body {
+          background-color: black;
+          font-family: Arial;
+        }
+        
+        /* Style the header */
+        header {
+          font-family: Arial;
+          background-color: #666;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          height: 300px; /* only for demonstration, should be removed */
+          background: #ccc;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        article {
+          padding: 20px;
+          width: 70%;
+          background-color: #f1f1f1;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section:after {
+          align-self: center;
+          text-align: center;
+          background-color: #262626;
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+
+        form {
+          font-family: Arial
+        }
+
+        
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+    </style>
+
+    <head>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <meta title="Cal" charset="utf-8">
+        <link rel="icon" href="favicon.png">
+        <title>Cal - Sites</title>
+    </head>
     <body style="background-color:#262626;">
         <center>
             <!-- <button sytle="color: #1db954;" onclick="windows.location.href = 'open.spotify.com/artist/2gToLgxPQrHLECGo022Hoy?si=Oh7_C4XxRPOV3m-9NrFwKQ'";>Spotify</button>" -->
             <a href="https://open.spotify.com/artist/2gToLgxPQrHLECGo022Hoy?si=Oh7_C4XxRPOV3m-9NrFwKQ">
-                <img src="Spotify.png" alt="Spotify logo" style="width:42px;hight:42px;border:0;"></a>
+                <img src="Spotify.png" alt="Spotify logo" style="width:42px;height:42px;border:0;"></a><br>
+            <a href="index.html"> <img src="return.png" alt="return" style="width:48px;height:48;border:0;"></a>
+
             <h6 style="color: white;">All other platforms are being monitored and will be posted here when available</h6>
         </center>
     </body>
+    <i style="color: white;">page 0.1a2 — &copy; Cal 2019</i>
 </html>
