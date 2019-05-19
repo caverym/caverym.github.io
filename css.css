@@ -7,6 +7,11 @@ body {
   text-align: center;
   align-self: center;
 }
+footer {
+  background-color: #262626;
+  text-align: center;
+  align-self: center;
+}
 section {
   align-self: center;
   text-align: center;
@@ -29,13 +34,10 @@ article {
 article.twit {
   align-self: right;
 }
-footer {
-  align-self: left;
-  color: white;
-}
+
 nav {
   align-self: center;
-  outline: #505050; 
+  outline: #ffffff; 
   }
 table {
     align-self: center;
