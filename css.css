@@ -1,98 +1,32 @@
-/*0.5 */
-
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #262626; */
+}
 body {
-          background-color: #262626;
-          font-family: Arial;
-        }
-        
-        /* img {
-          width:auto;
-          height:auto
-        } */
-
-        header {
-          font-family: Arial;
-          margin: 0;
-          background-color: #262626;
-          padding: 10px;
-          align-self: center;
-          align-content: center;
-          text-align: center;
-          font-size: 35px;
-          color: white;
-        }
-        
-        
-        nav {
-          float: auto;
-          width: 30%;
-          /* height: 300px; */
-          padding: 20px; 
-        }
-        
-        
-        nav ul {
-          list-style-type: none;
-          padding: 0;
-        }
-        
-        article {
-          margin: 0;
-          align-self: center;
-          align-content: center;
-          text-align: center;
-          padding: 0px;
-          /* width: 70%; */
-          background-color: #292929;
-          height: 300px; 
-        }
-        
-        section {
-          margin: 0;
-          align-self: center;
-          align-content: center;
-          text-align: center;
-          background-color: #262626;
-          border: 0;
-        }
-
-        section:after {
-          margin: 0;
-          align-self: center;
-          align-content: center;
-          text-align: center;
-          background-color: #262626;
-          content: "";
-          display: table;
-          clear: both;
-        } 
-        
-        
-        footer {
-          margin: 0;
-          align-self: center;
-          align-content: center;
-          text-align: center;
-          background-color: #ff0159;
-          padding: 10px;
-          text-align: auto;
-          color: white;
-          border: 0;
-        }
-
-        form {
-          align-self: center;
-          align-content: center;
-          text-align: center;
-          font-family: Arial
-        }
-
-        
-        
-        
-        @media (max-width: 600px) {
-          nav, article {
-            width: 100%;
-            height: auto;
-          }
-        }
+  background-color: #262626;
+  text-align: center;
+  align-self: center;
+}
+section {
+  align-self: center;
+  text-align: center;
+}
+h2 {
+  font-size: 48px;
+  color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: #505050;
+}
+article {
+  align-self: center;
+  color: white;
+}
+footer {
+  align-self: left;
+  color: white;
+}
+nav {
+  outline: #505050; 
+}
