@@ -36,7 +36,7 @@ body {
         article {
           padding: 20px;
           /* width: 70%; */
-          background-color: #ff0159;
+          background-color: #292929;
           height: 300px; 
         }
         
@@ -53,7 +53,7 @@ body {
         
         footer {
           align-self: auto;
-          background-color: #303030;
+          background-color: #ff0159;
           padding: 10px;
           text-align: auto;
           color: white;
