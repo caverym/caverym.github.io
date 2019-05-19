@@ -12,6 +12,7 @@ body {
 
         header {
           font-family: Arial;
+          margin: 0;
           background-color: #262626;
           padding: 10px;
           align-self: center;
@@ -36,23 +37,27 @@ body {
         }
         
         article {
+          margin: 0;
           align-self: center;
           align-content: center;
           text-align: center;
-          padding: 20px;
+          padding: 0px;
           /* width: 70%; */
           background-color: #292929;
           height: 300px; 
         }
         
         section {
+          margin: 0;
           align-self: center;
           align-content: center;
           text-align: center;
           background-color: #262626;
+          border: 0;
         }
 
         section:after {
+          margin: 0;
           align-self: center;
           align-content: center;
           text-align: center;
@@ -64,6 +69,7 @@ body {
         
         
         footer {
+          margin: 0;
           align-self: center;
           align-content: center;
           text-align: center;
@@ -71,6 +77,7 @@ body {
           padding: 10px;
           text-align: auto;
           color: white;
+          border: 0;
         }
 
         form {
