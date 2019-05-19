@@ -51,4 +51,22 @@ table {
     text-align: center;
     align-self: center;
   }
-  
+
+
+  input[type=text]:focus {
+    border: 3px solid #505050;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  input[type=email]:focus {
+    border: 3px solid #505050;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: azure;
+    border: none;
+    color: #505050;
+    padding: 6px 16px;
+
+  }
