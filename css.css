@@ -52,6 +52,7 @@ body {
         
         
         footer {
+          align-self: center;
           background-color: #303030;
           padding: 10px;
           text-align: center;
