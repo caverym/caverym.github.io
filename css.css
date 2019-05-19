@@ -1,12 +1,14 @@
+/*0.5 */
+
 body {
-          background-color: black;
+          background-color: #262626;
           font-family: Arial;
         }
         
         
         header {
           font-family: Arial;
-          background-color: #666;
+          background-color: #262626;
           padding: 30px;
           text-align: center;
           font-size: 35px;
@@ -15,10 +17,10 @@ body {
         
         
         nav {
-          float: left;
+          float: center;
           width: 30%;
-          /* height: 300px;
-          padding: 20px; */
+          /* height: 300px; */
+          padding: 20px; 
         }
         
         
@@ -42,11 +44,11 @@ body {
           content: "";
           display: table;
           clear: both;
-        }
+        } 
         
         
         footer {
-          background-color: #777;
+          background-color: #303030;
           padding: 10px;
           text-align: center;
           color: white;
