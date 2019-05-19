@@ -33,3 +33,14 @@ footer {
 nav {
   align-self: center;
   outline: #505050; 
+  }
+table {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td {
+    text-align: center;
+    align-self: center;
+  }
+  
