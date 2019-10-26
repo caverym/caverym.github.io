@@ -1,6 +1,5 @@
 (function() {
   // get all data in form and return object
-  Access-Control-Allow-Origin;
 
   function getFormData(form) {
     var elements = form.elements;
