@@ -34,12 +34,16 @@ header {
 h2.title {
     color: white;
     font-size: 64px;
-    
+
+}
+
+h3 {
+    color: white;
 }
 
 div.mus {
     padding-top: 16px;
-    
+
 }
 
 div.nav {
