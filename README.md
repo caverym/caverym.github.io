@@ -1,5 +1,5 @@
-[the website](https://caverym.github.io "Cal's website")
+[the website](https://caverym.github.io "Avery's website")
 
-This website uses the **Creative Commons Attribution 4.0 International** license
+This website uses the **MIT License** license
 
 Website version listed on index.html and in each comment.
