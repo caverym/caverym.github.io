@@ -6,3 +6,15 @@ body {
     background-color: black;
     background-image: url("bg.jpg");
 }
+
+.coll {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.colr {
+    float: right;
+    width: 50%;
+    padding: 2%
+}
