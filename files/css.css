@@ -9,9 +9,9 @@
 }
 
 a {
-    color: #C530AE;
+    color: #4C6C7C;
     border-radius: 15px;
-    background: #000000;
+    /* background: #000000; */
     text-decoration: none;
     padding: 8px;
     text-align: center;
@@ -20,9 +20,15 @@ a {
 
 body {
     background-color: black;
-    background-image: url("bg.jpg");
+    background-image: url("../files/bgv5.jpg");
+    filter: blur(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+div.f {
+
+}
 div.coll {
     float: left;
     width: 50%;
@@ -34,7 +40,8 @@ div.colr {
     width: 50%;
     padding: 2%
 }
+
 h3.coll {
     align-self: center;
-    color: whitesmoke;
+    color: #262A28;
 }
