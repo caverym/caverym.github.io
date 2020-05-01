@@ -26,7 +26,12 @@ body {
     background-size: cover;
 }
 
-div.f {
+div.cen {
+    margin: auto;
+    align-self: center;
+    float: none;
+    width: 50%;
+    padding: 2%;
 
 }
 div.coll {
