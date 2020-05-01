@@ -1,5 +1,21 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(Nunito/Nunito-Regular.ttf);
+}
+
 * {
+    font-family: 'Nunito';
     text-align: center;
+}
+
+a {
+    color: #C530AE;
+    border-radius: 15px;
+    background: #000000;
+    text-decoration: none;
+    padding: 8px;
+    text-align: center;
+    display: inline-block
 }
 
 body {
@@ -7,14 +23,18 @@ body {
     background-image: url("bg.jpg");
 }
 
-.coll {
+div.coll {
     float: left;
     width: 50%;
     padding: 2%;
 }
 
-.colr {
+div.colr {
     float: right;
     width: 50%;
     padding: 2%
+}
+h3.coll {
+    align-self: center;
+    color: whitesmoke;
 }
