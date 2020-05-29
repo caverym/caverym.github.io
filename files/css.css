@@ -8,8 +8,8 @@
     text-align: center;
 }
 
-a {
-    color: #4C6C7C;
+a.n {
+    color: #22352C;
     border-radius: 15px;
     /* background: #000000; */
     text-decoration: none;
@@ -18,9 +18,16 @@ a {
     display: inline-block
 }
 
+a.f {
+    color: #22352C;
+    /* background: #000000; */
+    text-decoration: none;
+    text-align: center;
+}
+
 body {
     background-color: black;
-    background-image: url("../files/bgv50.jpg");
+    background-image: url("../files/bg502.jpg");
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -33,6 +40,7 @@ div.cent {
     padding: 2%;
 
 }
+
 div.coll {
     float: left;
     width: 50%;
@@ -47,12 +55,12 @@ div.colr {
 
 h3.coll {
     align-self: center;
-    color: #262A28;
+    color: #2E343A;
 }
 
 h6 {
     /*align-self: center;*/
-    color: #262A28;
+    color: #2E343A;
 }
 
 footer {
