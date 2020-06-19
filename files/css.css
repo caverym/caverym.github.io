@@ -9,7 +9,7 @@
 }
 
 a.n {
-    color: #22352C;
+    color: #7733E1;
     border-radius: 15px;
     /* background: #000000; */
     text-decoration: none;
@@ -19,7 +19,7 @@ a.n {
 }
 
 a.f {
-    color: #22352C;
+    color: #7733E1;
     /* background: #000000; */
     text-decoration: none;
     text-align: center;
@@ -27,7 +27,7 @@ a.f {
 
 body {
     background-color: black;
-    background-image: url("../files/bg502.jpg");
+    background-image: url("../files/bg51.jpg");
     background-repeat: no-repeat;
     background-size: auto;
 }
