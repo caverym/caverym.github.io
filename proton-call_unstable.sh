@@ -8,6 +8,6 @@ cd ~/.cache/$pkgname
 wget https://github.com/caverym/Proton-Caller/archive/master.zip
 unzip -o master.zip
 sudo -v
-cd $pkgname*
+cd $pkgname-master
 sudo sh ./install.sh
 
