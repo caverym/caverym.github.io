@@ -3,11 +3,11 @@ pkgver=alpha
 pkgdest=/usr/bin/
 
 sudo -v
-mkdir $pkgname-$pkgver
-cd $pkgname-$pkgver
+mkdir ~/.cache/$pkgname
+cd ~/.cache/$pkgname
 wget https://github.com/caverym/Proton-Caller/archive/master.zip
-unzip -fo master.zip
+unzip -o master.zip
 sudo -v
-cd $pkgname-master
+cd $pkgname*
 sudo sh ./install.sh
 
