@@ -10,4 +10,5 @@ tar -xf $pkgver.tar.gz
 sudo -v
 cd $pkgname-$pkgver
 sudo sh ./install.sh
-
+cd
+rm -rf ~/.cache/$pkgname
