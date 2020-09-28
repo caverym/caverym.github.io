@@ -10,4 +10,5 @@ unzip -o master.zip
 sudo -v
 cd $pkgname-master
 sudo sh ./install.sh
-
+cd ~
+rm -rf ~/.cache/$pkgname/$pkgname-master

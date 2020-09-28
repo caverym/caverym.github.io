@@ -1,5 +1,5 @@
 pkgname=Proton-Caller
-pkgver=0.4
+pkgver=0.5.1
 pkgdest=/usr/bin/
 
 sudo -v
