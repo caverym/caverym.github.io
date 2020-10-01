@@ -1,5 +1,5 @@
 pkgname=Proton-Caller
-pkgver=0.5.2
+pkgver=0.5.4
 pkgdest=/usr/bin/
 
 mkdir ~/.cache/$pkgname
